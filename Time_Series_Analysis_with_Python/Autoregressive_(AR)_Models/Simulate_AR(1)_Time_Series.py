@@ -1,7 +1,7 @@
 # import the module for simulating data
 from statsmodels.tsa.arima_process import ArmaProcess
 
-# Plot 1: AR parameter = +0.9 , so -0.9 in array(theta)
+# Plot 1: AR parameter = +0.9 , so -0.9 in array(phi)
 plt.subplot(2,1,1)
 ar1 = np.array([1, -0.9])
 ma1 = np.array([1])
